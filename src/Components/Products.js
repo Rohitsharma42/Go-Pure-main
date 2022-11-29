@@ -49,7 +49,6 @@ const Products = () => {
           <div className="row g-4" id="DivAllProducts">
           {console.log("products: ", products)}
             {
-              products!=undefined &&
               products.map((curElem) => {
                 
                 return(

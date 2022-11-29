@@ -84,21 +84,21 @@ const Home = () => {
         </Carousel>
       </section>
 
-      <section class="product-wrapper home-page-all-products-bg">
-        <div class="container allProducts">
-          <div class="row my-4 section-title">
-            <h3 class="heading">Discover the Premium Quality Products</h3>
+      <section className="product-wrapper home-page-all-products-bg">
+        <div className="container allProducts">
+          <div className="row my-4 section-title">
+            <h3 className="heading">Discover the Premium Quality Products</h3>
           </div>
-          <div class="text-center">
-            <div class="row g-4">
-              <div class="col-sm-2 col-md-4 col-lg-3">
-                <div class="product-card">
+          <div className="text-center">
+            <div className="row g-4">
+              <div className="col-sm-2 col-md-4 col-lg-3">
+                <div className="product-card">
                   <a href="products.html?Cookies">
-                    <div class="img-container">
-                      <img src="products-img/all-cookies.jpg" class="product-img img-fluid" alt="" />
+                    <div className="img-container">
+                      <img src="products-img/all-cookies.jpg" className="product-img img-fluid" alt="" />
                     </div>
-                    <div class="product-inner">
-                      <div class="product-name">
+                    <div className="product-inner">
+                      <div className="product-name">
                         Cookies
                       </div>
                     </div>
@@ -107,13 +107,13 @@ const Home = () => {
               </div>
 
 
-              <div class="col-sm-2 col-md-4 col-lg-3">
-                <div class="product-card">
+              <div className="col-sm-2 col-md-4 col-lg-3">
+                <div className="product-card">
                   <a href="products.html?Sweets">
-                    <div class="img-container">
-                      <img src="products-img/all-sweets.jpg" class="product-img img-fluid" alt="" />
-                    </div><div class="product-inner">
-                      <div class="product-name">
+                    <div className="img-container">
+                      <img src="products-img/all-sweets.jpg" className="product-img img-fluid" alt="" />
+                    </div><div className="product-inner">
+                      <div className="product-name">
                         Sweets
                       </div>
                     </div>
@@ -121,13 +121,13 @@ const Home = () => {
                 </div>
               </div>
 
-              <div class="col-sm-2 col-md-4 col-lg-3">
-                <div class="product-card">
+              <div className="col-sm-2 col-md-4 col-lg-3">
+                <div className="product-card">
                   <a href="products.html?Namkeen">
-                    <div class="img-container">
-                      <img src="products-img/all-namkeens.jpg" class="product-img img-fluid" alt="" />
-                    </div><div class="product-inner">
-                      <div class="product-name">
+                    <div className="img-container">
+                      <img src="products-img/all-namkeens.jpg" className="product-img img-fluid" alt="" />
+                    </div><div className="product-inner">
+                      <div className="product-name">
                         Namkeen
                       </div>
                     </div>
@@ -135,13 +135,13 @@ const Home = () => {
                 </div>
               </div>
 
-              <div class="col-sm-2 col-md-4 col-lg-3">
-                <div class="product-card">
+              <div className="col-sm-2 col-md-4 col-lg-3">
+                <div className="product-card">
                   <a href="products.html?Dry-Fruits">
-                    <div class="img-container">
-                      <img src="products-img/all-dry-fruits.jpg" class="product-img img-fluid" alt="" />
-                    </div><div class="product-inner">
-                      <div class="product-name">
+                    <div className="img-container">
+                      <img src="products-img/all-dry-fruits.jpg" className="product-img img-fluid" alt="" />
+                    </div><div className="product-inner">
+                      <div className="product-name">
                         Dry Fruits
                       </div>
                     </div>
@@ -149,13 +149,13 @@ const Home = () => {
                 </div>
               </div>
 
-              <div class="col-sm-2 col-md-4 col-lg-3">
-                <div class="product-card">
+              <div className="col-sm-2 col-md-4 col-lg-3">
+                <div className="product-card">
                   <a href="products.html?Snacks">
-                    <div class="img-container">
-                      <img src="products-img/all-snacks.jpg" class="product-img img-fluid" alt="" />
-                    </div><div class="product-inner">
-                      <div class="product-name">
+                    <div className="img-container">
+                      <img src="products-img/all-snacks.jpg" className="product-img img-fluid" alt="" />
+                    </div><div className="product-inner">
+                      <div className="product-name">
                         Snacks
                       </div>
                     </div>
@@ -163,13 +163,13 @@ const Home = () => {
                 </div>
               </div>
 
-              <div class="col-sm-2 col-md-4 col-lg-3">
-                <div class="product-card">
+              <div className="col-sm-2 col-md-4 col-lg-3">
+                <div className="product-card">
                   <a href="products.html?Petha">
-                    <div class="img-container">
-                      <img src="products-img/Panchhi-Petha/Laal-khand-petha.jpg" class="product-img img-fluid" alt="" />
-                    </div><div class="product-inner">
-                      <div class="product-name">
+                    <div className="img-container">
+                      <img src="products-img/Panchhi-Petha/Laal-khand-petha.jpg" className="product-img img-fluid" alt="" />
+                    </div><div className="product-inner">
+                      <div className="product-name">
                         Petha
                       </div>
                     </div>
@@ -177,13 +177,13 @@ const Home = () => {
                 </div>
               </div>
 
-              <div class="col-sm-2 col-md-4 col-lg-3">
-                <div class="product-card">
+              <div className="col-sm-2 col-md-4 col-lg-3">
+                <div className="product-card">
                   <a href="products.html?Pickles">
-                    <div class="img-container">
-                      <img src="products-img/all-pickles.jpg" class="product-img img-fluid" alt="" />
-                    </div><div class="product-inner">
-                      <div class="product-name">
+                    <div className="img-container">
+                      <img src="products-img/all-pickles.jpg" className="product-img img-fluid" alt="" />
+                    </div><div className="product-inner">
+                      <div className="product-name">
                         Pickles
                       </div>
                     </div>
@@ -191,13 +191,13 @@ const Home = () => {
                 </div>
               </div>
 
-              <div class="col-sm-2 col-md-4 col-lg-3">
-                <div class="product-card">
+              <div className="col-sm-2 col-md-4 col-lg-3">
+                <div className="product-card">
                   <a href="products.html?Spices">
-                    <div class="img-container">
-                      <img src="products-img/thillais-masala/coriander-powder.png" class="product-img img-fluid" alt="" />
-                    </div><div class="product-inner">
-                      <div class="product-name">
+                    <div className="img-container">
+                      <img src="products-img/thillais-masala/coriander-powder.png" className="product-img img-fluid" alt="" />
+                    </div><div className="product-inner">
+                      <div className="product-name">
                         Spices
                       </div>
                     </div>
@@ -209,31 +209,31 @@ const Home = () => {
 
             </div>
 
-            <div class="text-center mt-4">
-              <a href="products.html" class="btn btn-success btn-lg">View All Products</a>
+            <div className="text-center mt-4">
+              <a href="products.html" className="btn btn-success btn-lg">View All Products</a>
             </div>
 
           </div>
           </div>
       </section>
 
-      <section class="timing-wraper">
-        <div class="container">
-          <div class="row align-items-center justify-content-start">
-            <div class="col-xs-12 col-sm-6 text-center">
-              <img src={app3} class="img-device" alt="" />
+      <section className="timing-wraper">
+        <div className="container">
+          <div className="row align-items-center justify-content-start">
+            <div className="col-xs-12 col-sm-6 text-center">
+              <img src={app3} className="img-device" alt="" />
             </div>
-            <div class="col-xs-12 col-sm-4 section-title">
-              <h3 class="heading">Order Online</h3>
-              <div class="subtitle">
+            <div className="col-xs-12 col-sm-4 section-title">
+              <h3 className="heading">Order Online</h3>
+              <div className="subtitle">
                 Download The App
               </div>
-              <div class="d-flex">
+              <div className="d-flex">
                 <a href="https://play.google.com/store/apps/details?id=com.mcn.mcnecomandroid" target="new">
-                  <img src={app1} class="img-play-store" alt="go pure play store" />
+                  <img src={app1} className="img-play-store" alt="go pure play store" />
                 </a>
                 <a href="https://apps.apple.com/us/app/go-pure-app/id1558129667" target="new">
-                  <img src={app2} class="img-ios-store" alt="go pure ios store" />
+                  <img src={app2} className="img-ios-store" alt="go pure ios store" />
                 </a>
               </div>
             </div>
