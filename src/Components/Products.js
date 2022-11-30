@@ -2,19 +2,23 @@ import React, { useState, useEffect } from 'react'
 
 const Products = () => {
 
-  const [products, setProducts] = useState([]);
+  const [topRatedProducts, setTopRatedProducts] = useState([]);
 
-  const getProducts = async () => {
+  const getTopRatedProducts = async () => {
     const response = await fetch('http://tastybox.mcnsolutions.net/api/ReviewAndRating/GetTopRatedProduct');
-    setProducts(await response.json());
+    // console.log(response.json())
+    setTopRatedProducts(await response.json());
+    // setTopRatedProducts(await response.json().topRatedProducts)
   }
 
   useEffect(() => {
-    getProducts();
+    getTopRatedProducts();
+    setTopRatedProducts(topRatedProducts.topRatedProducts)
   }, []);
 
   return (
-    <div>
+    <>
+    {console.log (topRatedProducts)}
       <section className="inner-slider taste-slider-bg">
         <div className="slider-heading aos-init aos-animate" data-aos="fade-in">
           Products
@@ -47,19 +51,19 @@ const Products = () => {
 
         <div className="container aos-init aos-animate allProducts" data-aos="fade-up">
           <div className="row g-4" id="DivAllProducts">
-          {console.log("products: ", products)}
-            {
-              products.map((curElem) => {
+          {console.log("products: ", topRatedProducts)}
+            
+              {Object.values(topRatedProducts).map((productImageURL, productName,) => {
                 
                 return(
-                <div className="col-sm-2 col-md-4 col-lg-3 cookies">
+                <div className="col-sm-2 col-md-4 col-lg-3 ">
                   <div className="product-card">
                     <div className="img-container">
-                      <img src={curElem.productImageURL} className="product-img img-fluid" alt="" />
+                      <img src={productImageURL} className="product-img img-fluid" alt="" />
                     </div>
                     <div className="product-inner">
                       <div className="product-name">
-                        {curElem.productName}
+                        {productName}
                       </div>
                       <div className="product-seller">
                         <strong>Source</strong> Avon Bakers & Confectioners, Meerut, <a className="text-link"
@@ -69,8 +73,7 @@ const Products = () => {
                   </div>
                 </div>
                 )
-              })
-            }
+              })}
 
 
 
@@ -79,7 +82,7 @@ const Products = () => {
           </div>
         </div>
       </section>
-    </div>
+    </>
   )
 }
 
