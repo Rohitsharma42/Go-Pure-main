@@ -474,6 +474,8 @@ color: #ffffff !important;
     font-size:40px;
     font-family: var(--opensans);
     text-transform: uppercase;
+    opacity: 1;
+    transform: translateZ(0);
 }
 .timing-wraper {
     background: #eceff1 url("../images/app-section-bg-img.png") no-repeat;
@@ -788,6 +790,12 @@ font-size:48px;
     margin-top:15px;
     margin-bottom:15px;
 }
+.product-rate{
+    font-size: 17px;
+    font-weight: 600;
+    color: #5a5a5a;
+}
+
 .product-seller{
     color:#666;
     display: none;
@@ -806,7 +814,6 @@ font-size:48px;
   .product-inner{
     min-height:auto;
     text-align: center;
-    background: none;
   }
 
 
